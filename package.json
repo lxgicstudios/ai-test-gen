@@ -1,14 +1,62 @@
 {
-  "name": "ai-test-gen",
-  "version": "1.0.0",
-  "description": "Generate unit tests from source files using OpenAI",
+  "name": "@lxgicstudios/ai-test-gen",
+  "version": "1.0.1",
+  "description": "AI-powered unit test generator - create Jest, Vitest, and Mocha tests from source files using GPT",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "ai-test-gen": "dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/cli.ts"
+  },
+  "keywords": [
+    "ai",
+    "anthropic",
+    "automation",
+    "claude",
+    "cli",
+    "coverage",
+    "developer-tools",
+    "gpt",
+    "jest",
+    "llm",
+    "mocha",
+    "nodejs",
+    "npx",
+    "openai",
+    "test-generation",
+    "testing",
+    "tdd",
+    "typescript",
+    "unit-test",
+    "vitest",
+    "zero-config"
+  ],
+  "author": "LXGIC Studios <hello@lxgicstudios.com> (https://lxgicstudios.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/lxgicstudios/ai-test-gen#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxgicstudios/ai-test-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lxgicstudios/ai-test-gen/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/lxgicstudios"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "commander": "^12.1.0",
@@ -19,6 +67,5 @@
   "devDependencies": {
     "typescript": "^5.5.0",
     "@types/node": "^20.14.0"
-  },
-  "license": "MIT"
+  }
 }
